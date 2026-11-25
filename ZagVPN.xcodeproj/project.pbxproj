@@ -1,0 +1,512 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		A10000000000000000000003 /* AmneziaWG Bridge */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = A10000000000000000000034 /* Build configuration list for PBXAggregateTarget "AmneziaWG Bridge" */;
+			buildPhases = (
+				A10000000000000000000047 /* Build AmneziaWG static library */,
+			);
+			dependencies = ();
+			name = "AmneziaWG Bridge";
+			productName = "AmneziaWG Bridge";
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		A00000000000000000000011 /* ZagVPNApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0000000000000000000000C /* ZagVPNApp.swift */; };
+		A20000000000000000000002 /* Personalization.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000012 /* Personalization.swift */; };
+		A20000000000000000000003 /* VPNManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000013 /* VPNManager.swift */; };
+		A00000000000000000000013 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000012 /* Assets.xcassets */; };
+		A20000000000000000000005 /* PacketTunnelProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000016 /* PacketTunnelProvider.swift */; };
+		A20000000000000000000006 /* TunnelSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000019 /* TunnelSettings.swift */; };
+		A20000000000000000000007 /* TunnelSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000019 /* TunnelSettings.swift */; };
+		A20000000000000000000008 /* ConfigurationKeychain.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000020 /* ConfigurationKeychain.swift */; };
+		A20000000000000000000009 /* ConfigurationKeychain.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000020 /* ConfigurationKeychain.swift */; };
+		A20000000000000000000010 /* PacketTunnel.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = A10000000000000000000022 /* PacketTunnel.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		A20000000000000000000011 /* WireGuardKit in Frameworks */ = {isa = PBXBuildFile; productRef = A10000000000000000000061 /* WireGuardKit */; };
+		A20000000000000000000012 /* WireGuardKit in Frameworks */ = {isa = PBXBuildFile; productRef = A10000000000000000000062 /* WireGuardKit */; };
+		A20000000000000000000013 /* COPYING in Resources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000023 /* COPYING */; };
+		A20000000000000000000014 /* THIRD-PARTY-LICENSES.txt in Resources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000024 /* THIRD-PARTY-LICENSES.txt */; };
+		A20000000000000000000015 /* PersonalizationViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000025 /* PersonalizationViews.swift */; };
+		A20000000000000000000016 /* ProfileEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000026 /* ProfileEditor.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A10000000000000000000054 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A00000000000000000000001 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A10000000000000000000002;
+			remoteInfo = PacketTunnel;
+		};
+		A10000000000000000000055 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A00000000000000000000001 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A10000000000000000000003;
+			remoteInfo = "AmneziaWG Bridge";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A10000000000000000000044 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				A20000000000000000000010 /* PacketTunnel.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A0000000000000000000000C /* ZagVPNApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZagVPNApp.swift; sourceTree = "<group>"; };
+		A10000000000000000000012 /* Personalization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Personalization.swift; sourceTree = "<group>"; };
+		A10000000000000000000013 /* VPNManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VPNManager.swift; sourceTree = "<group>"; };
+		A00000000000000000000012 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A10000000000000000000015 /* ZagVPN.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ZagVPN.entitlements; sourceTree = "<group>"; };
+		A10000000000000000000016 /* PacketTunnelProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PacketTunnelProvider.swift; sourceTree = "<group>"; };
+		A10000000000000000000017 /* PacketTunnel.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PacketTunnel.entitlements; sourceTree = "<group>"; };
+		A10000000000000000000018 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A10000000000000000000019 /* TunnelSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TunnelSettings.swift; sourceTree = "<group>"; };
+		A10000000000000000000020 /* ConfigurationKeychain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigurationKeychain.swift; sourceTree = "<group>"; };
+		A00000000000000000000007 /* ZagVPN.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZagVPN.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A10000000000000000000022 /* PacketTunnel.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = PacketTunnel.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		A10000000000000000000023 /* COPYING */ = {isa = PBXFileReference; lastKnownFileType = text; path = COPYING; sourceTree = "<group>"; };
+		A10000000000000000000024 /* THIRD-PARTY-LICENSES.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "THIRD-PARTY-LICENSES.txt"; sourceTree = "<group>"; };
+		A10000000000000000000025 /* PersonalizationViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalizationViews.swift; sourceTree = "<group>"; };
+		A10000000000000000000026 /* ProfileEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileEditor.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A0000000000000000000000A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A20000000000000000000011 /* WireGuardKit in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A10000000000000000000046 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A20000000000000000000012 /* WireGuardKit in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A00000000000000000000003 = {
+			isa = PBXGroup;
+			children = (
+				A00000000000000000000006 /* ZagVPN */,
+				A10000000000000000000006 /* PacketTunnel */,
+				A10000000000000000000007 /* Shared */,
+				A10000000000000000000009 /* AmneziaWG licenses */,
+				A00000000000000000000004 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A00000000000000000000006 /* ZagVPN */ = {
+			isa = PBXGroup;
+			children = (
+				A0000000000000000000000C /* ZagVPNApp.swift */,
+				A10000000000000000000012 /* Personalization.swift */,
+				A10000000000000000000013 /* VPNManager.swift */,
+				A10000000000000000000025 /* PersonalizationViews.swift */,
+				A10000000000000000000026 /* ProfileEditor.swift */,
+				A00000000000000000000012 /* Assets.xcassets */,
+				A10000000000000000000015 /* ZagVPN.entitlements */,
+			);
+			path = ZagVPN;
+			sourceTree = "<group>";
+		};
+		A10000000000000000000006 /* PacketTunnel */ = {
+			isa = PBXGroup;
+			children = (
+				A10000000000000000000016 /* PacketTunnelProvider.swift */,
+				A10000000000000000000017 /* PacketTunnel.entitlements */,
+				A10000000000000000000018 /* Info.plist */,
+			);
+			path = PacketTunnel;
+			sourceTree = "<group>";
+		};
+		A10000000000000000000007 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				A10000000000000000000019 /* TunnelSettings.swift */,
+				A10000000000000000000020 /* ConfigurationKeychain.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		A00000000000000000000004 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A00000000000000000000007 /* ZagVPN.app */,
+				A10000000000000000000022 /* PacketTunnel.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A10000000000000000000009 /* AmneziaWG licenses */ = {
+			isa = PBXGroup;
+			children = (
+				A10000000000000000000023 /* COPYING */,
+				A10000000000000000000024 /* THIRD-PARTY-LICENSES.txt */,
+			);
+			name = "AmneziaWG licenses";
+			path = Vendor/AmneziaWG;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A00000000000000000000005 /* ZagVPN */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A00000000000000000000008 /* Build configuration list for PBXNativeTarget "ZagVPN" */;
+			buildPhases = (
+				A00000000000000000000009 /* Sources */,
+				A0000000000000000000000A /* Frameworks */,
+				A0000000000000000000000B /* Resources */,
+				A10000000000000000000044 /* Embed App Extensions */,
+			);
+			buildRules = ();
+			dependencies = (
+				A10000000000000000000051 /* PBXTargetDependency */,
+				A10000000000000000000052 /* PBXTargetDependency */,
+			);
+			name = ZagVPN;
+			packageProductDependencies = (
+				A10000000000000000000061 /* WireGuardKit */,
+			);
+			productName = ZagVPN;
+			productReference = A00000000000000000000007 /* ZagVPN.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A10000000000000000000002 /* PacketTunnel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A10000000000000000000033 /* Build configuration list for PBXNativeTarget "PacketTunnel" */;
+			buildPhases = (
+				A10000000000000000000045 /* Sources */,
+				A10000000000000000000046 /* Frameworks */,
+			);
+			buildRules = ();
+			dependencies = (
+				A10000000000000000000053 /* PBXTargetDependency */,
+			);
+			name = PacketTunnel;
+			packageProductDependencies = (
+				A10000000000000000000062 /* WireGuardKit */,
+			);
+			productName = PacketTunnel;
+			productReference = A10000000000000000000022 /* PacketTunnel.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A00000000000000000000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					A00000000000000000000005 = {
+						CreatedOnToolsVersion = 16.0;
+						SystemCapabilities = {
+							com.apple.Keychain = {enabled = 1; };
+							com.apple.NetworkExtensions.iOS = {enabled = 1; };
+						};
+					};
+					A10000000000000000000002 = {
+						CreatedOnToolsVersion = 16.0;
+						SystemCapabilities = {
+							com.apple.Keychain = {enabled = 1; };
+							com.apple.NetworkExtensions.iOS = {enabled = 1; };
+						};
+					};
+					A10000000000000000000003 = {CreatedOnToolsVersion = 16.0; };
+				};
+			};
+			buildConfigurationList = A00000000000000000000002 /* Build configuration list for PBXProject "ZagVPN" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = ru;
+			hasScannedForEncodings = 0;
+			knownRegions = (ru, en, Base, );
+			mainGroup = A00000000000000000000003;
+			packageReferences = (
+				A10000000000000000000060 /* XCLocalSwiftPackageReference "Vendor/AmneziaWG" */,
+			);
+			productRefGroup = A00000000000000000000004 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A00000000000000000000005 /* ZagVPN */,
+				A10000000000000000000002 /* PacketTunnel */,
+				A10000000000000000000003 /* AmneziaWG Bridge */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A0000000000000000000000B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A00000000000000000000013 /* Assets.xcassets in Resources */,
+				A20000000000000000000013 /* COPYING in Resources */,
+				A20000000000000000000014 /* THIRD-PARTY-LICENSES.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A10000000000000000000047 /* Build AmneziaWG static library */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = ();
+			inputPaths = (
+				"$(SRCROOT)/Scripts/build-amnezia-bridge.sh",
+			);
+			name = "Build AmneziaWG static library";
+			outputPaths = (
+				"$(BUILT_PRODUCTS_DIR)/libwg-go.a",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/bash;
+			shellScript = "exec /bin/bash \"$SRCROOT/Scripts/build-amnezia-bridge.sh\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A00000000000000000000009 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A00000000000000000000011 /* ZagVPNApp.swift in Sources */,
+				A20000000000000000000002 /* Personalization.swift in Sources */,
+				A20000000000000000000003 /* VPNManager.swift in Sources */,
+				A20000000000000000000015 /* PersonalizationViews.swift in Sources */,
+				A20000000000000000000016 /* ProfileEditor.swift in Sources */,
+				A20000000000000000000006 /* TunnelSettings.swift in Sources */,
+				A20000000000000000000008 /* ConfigurationKeychain.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A10000000000000000000045 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A20000000000000000000005 /* PacketTunnelProvider.swift in Sources */,
+				A20000000000000000000007 /* TunnelSettings.swift in Sources */,
+				A20000000000000000000009 /* ConfigurationKeychain.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A10000000000000000000051 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A10000000000000000000002 /* PacketTunnel */;
+			targetProxy = A10000000000000000000054 /* PBXContainerItemProxy */;
+		};
+		A10000000000000000000052 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A10000000000000000000003 /* AmneziaWG Bridge */;
+			targetProxy = A10000000000000000000055 /* PBXContainerItemProxy */;
+		};
+		A10000000000000000000053 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A10000000000000000000003 /* AmneziaWG Bridge */;
+			targetProxy = A10000000000000000000055 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A0000000000000000000000D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				ZAKALSKY_BUNDLE_ID = com.zagalsky.vpn.demo;
+				ZAKALSKY_KEYCHAIN_GROUP = "$(ZAKALSKY_BUNDLE_ID).shared";
+			};
+			name = Debug;
+		};
+		A0000000000000000000000E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.1;
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				VALIDATE_PRODUCT = YES;
+				ZAKALSKY_BUNDLE_ID = com.zagalsky.vpn.demo;
+				ZAKALSKY_KEYCHAIN_GROUP = "$(ZAKALSKY_BUNDLE_ID).shared";
+			};
+			name = Release;
+		};
+		A0000000000000000000000F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ZagVPN/ZagVPN.entitlements;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Закальский VPN";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				LD_RUNPATH_SEARCH_PATHS = ("$(inherited)", "@executable_path/Frameworks", );
+				LIBRARY_SEARCH_PATHS = ("$(inherited)", "$(BUILT_PRODUCTS_DIR)", );
+				PRODUCT_BUNDLE_IDENTIFIER = "$(ZAKALSKY_BUNDLE_ID)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A00000000000000000000010 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ZagVPN/ZagVPN.entitlements;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Закальский VPN";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				LD_RUNPATH_SEARCH_PATHS = ("$(inherited)", "@executable_path/Frameworks", );
+				LIBRARY_SEARCH_PATHS = ("$(inherited)", "$(BUILT_PRODUCTS_DIR)", );
+				PRODUCT_BUNDLE_IDENTIFIER = "$(ZAKALSKY_BUNDLE_ID)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A10000000000000000000075 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_ENTITLEMENTS = PacketTunnel/PacketTunnel.entitlements;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = PacketTunnel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = ("$(inherited)", "@executable_path/Frameworks", "@executable_path/../../Frameworks", );
+				LIBRARY_SEARCH_PATHS = ("$(inherited)", "$(BUILT_PRODUCTS_DIR)", );
+				PRODUCT_BUNDLE_IDENTIFIER = "$(ZAKALSKY_BUNDLE_ID).PacketTunnel";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		A10000000000000000000076 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_ENTITLEMENTS = PacketTunnel/PacketTunnel.entitlements;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = PacketTunnel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = ("$(inherited)", "@executable_path/Frameworks", "@executable_path/../../Frameworks", );
+				LIBRARY_SEARCH_PATHS = ("$(inherited)", "$(BUILT_PRODUCTS_DIR)", );
+				PRODUCT_BUNDLE_IDENTIFIER = "$(ZAKALSKY_BUNDLE_ID).PacketTunnel";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		A10000000000000000000077 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+			};
+			name = Debug;
+		};
+		A10000000000000000000078 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A00000000000000000000002 /* Build configuration list for PBXProject "ZagVPN" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (A0000000000000000000000D /* Debug */, A0000000000000000000000E /* Release */, );
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A00000000000000000000008 /* Build configuration list for PBXNativeTarget "ZagVPN" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (A0000000000000000000000F /* Debug */, A00000000000000000000010 /* Release */, );
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A10000000000000000000033 /* Build configuration list for PBXNativeTarget "PacketTunnel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (A10000000000000000000075 /* Debug */, A10000000000000000000076 /* Release */, );
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A10000000000000000000034 /* Build configuration list for PBXAggregateTarget "AmneziaWG Bridge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (A10000000000000000000077 /* Debug */, A10000000000000000000078 /* Release */, );
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		A10000000000000000000060 /* XCLocalSwiftPackageReference "Vendor/AmneziaWG" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = Vendor/AmneziaWG;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A10000000000000000000061 /* WireGuardKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A10000000000000000000060 /* XCLocalSwiftPackageReference "Vendor/AmneziaWG" */;
+			productName = WireGuardKit;
+		};
+		A10000000000000000000062 /* WireGuardKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A10000000000000000000060 /* XCLocalSwiftPackageReference "Vendor/AmneziaWG" */;
+			productName = WireGuardKit;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = A00000000000000000000001 /* Project object */;
+}
